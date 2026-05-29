@@ -98,9 +98,9 @@ export default async function VerifyPage({
           </div>
 
           <div className="flex justify-between border-b pb-3">
-            <span className="font-semibold">Status:</span>
+            <span className="font-semibold">Subject Property:</span>
             <span className="text-green-600 font-semibold">
-              {report.status}
+              {report.subjectProperty}
             </span>
           </div>
 
